@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		F695A473292CF6DD000E766C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695A472292CF6DD000E766C /* AppDelegate.swift */; };
 		F695A475292CF6DD000E766C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695A474292CF6DD000E766C /* ContentView.swift */; };
-		F695A477292CF6DD000E766C /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = F695A476292CF6DD000E766C /* Experience.rcproject */; };
 		F695A479292CF6E1000E766C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F695A478292CF6E1000E766C /* Assets.xcassets */; };
 		F695A47C292CF6E1000E766C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F695A47B292CF6E1000E766C /* Preview Assets.xcassets */; };
 		F695A486292CF6E2000E766C /* VideoMatLocalOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695A485292CF6E2000E766C /* VideoMatLocalOSTests.swift */; };
 		F695A490292CF6E2000E766C /* VideoMatLocalOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695A48F292CF6E2000E766C /* VideoMatLocalOSUITests.swift */; };
 		F695A492292CF6E2000E766C /* VideoMatLocalOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695A491292CF6E2000E766C /* VideoMatLocalOSUITestsLaunchTests.swift */; };
+		F695A4A0292D01F6000E766C /* DemoShortVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F695A49F292D01F6000E766C /* DemoShortVideo.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		F695A46F292CF6DD000E766C /* VideoMatLocalOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoMatLocalOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F695A472292CF6DD000E766C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F695A474292CF6DD000E766C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		F695A476292CF6DD000E766C /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		F695A478292CF6E1000E766C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F695A47B292CF6E1000E766C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F695A481292CF6E2000E766C /* VideoMatLocalOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoMatLocalOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +45,7 @@
 		F695A48B292CF6E2000E766C /* VideoMatLocalOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoMatLocalOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F695A48F292CF6E2000E766C /* VideoMatLocalOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoMatLocalOSUITests.swift; sourceTree = "<group>"; };
 		F695A491292CF6E2000E766C /* VideoMatLocalOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoMatLocalOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F695A49F292D01F6000E766C /* DemoShortVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = DemoShortVideo.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +96,9 @@
 		F695A471292CF6DD000E766C /* VideoMatLocalOS */ = {
 			isa = PBXGroup;
 			children = (
+				F695A49E292CFFFF000E766C /* Videos */,
 				F695A472292CF6DD000E766C /* AppDelegate.swift */,
 				F695A474292CF6DD000E766C /* ContentView.swift */,
-				F695A476292CF6DD000E766C /* Experience.rcproject */,
 				F695A478292CF6E1000E766C /* Assets.xcassets */,
 				F695A47A292CF6E1000E766C /* Preview Content */,
 			);
@@ -128,6 +128,14 @@
 				F695A491292CF6E2000E766C /* VideoMatLocalOSUITestsLaunchTests.swift */,
 			);
 			path = VideoMatLocalOSUITests;
+			sourceTree = "<group>";
+		};
+		F695A49E292CFFFF000E766C /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				F695A49F292D01F6000E766C /* DemoShortVideo.mp4 */,
+			);
+			path = Videos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +244,7 @@
 			files = (
 				F695A47C292CF6E1000E766C /* Preview Assets.xcassets in Resources */,
 				F695A479292CF6E1000E766C /* Assets.xcassets in Resources */,
+				F695A4A0292D01F6000E766C /* DemoShortVideo.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +271,6 @@
 			files = (
 				F695A475292CF6DD000E766C /* ContentView.swift in Sources */,
 				F695A473292CF6DD000E766C /* AppDelegate.swift in Sources */,
-				F695A477292CF6DD000E766C /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
